@@ -99,7 +99,7 @@ void ex::ResourceManager::deleteVariable(const std::string& variable_name)
 {
 	// Check whether variable exists
 	if (!m_variables.count(variable_name)) {
-		throw std::logic_error("Variable '" + variable_name + "' doesn't exist");
+		throw std::logic_error("Variable doesn't exist");
 	}
 
 	// Delete it from map

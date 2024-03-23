@@ -50,8 +50,8 @@ namespace ex
 		private:
 
 			static std::unordered_map<std::string, size_t>  m_variables;
-			static std::vector<int32_t>						m_programMemory;
-			ex::ProgramStack								m_programStack;
+			static std::vector<int32_t>			m_programMemory;
+			ex::ProgramStack				m_programStack;
 	};
 }
 #endif // ! RESOURCE_MANAGER_H

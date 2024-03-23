@@ -166,9 +166,8 @@ std::vector<int32_t> ex::Strings::m_createIntRepresentation(const std::string & 
 //  Prints out the int representation by bytes
 //
 //  Doesn't add new line to the end
-//  Doesn't do error checking
+//  Doesn't do error checking (Has to be made before calling)
 //  0 has to be present otherwise it will fuck up the program
-//  (Has to be made before calling)
 // 
 //  Return: void
 //

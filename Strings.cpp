@@ -155,7 +155,8 @@ std::vector<int32_t> ex::Strings::m_createIntRepresentation(const std::string & 
         ret.push_back(pdata);
 
     // Insert 0 to mark end of the string
-    ret.push_back(0);
+    else
+    	ret.push_back(0);
 
     return ret;
 }
